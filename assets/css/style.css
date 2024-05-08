@@ -14,18 +14,10 @@
   /**
    * colors
    */
-  --some: hsl(278, 100%, 83%);
-  --some: hsl(274, 100%, 75%);
-  --some: hsl(273, 68%, 59%);
-  --some: hsl(300, 100%, 88%);
-  --some: hsl(270, 73%, 35%);
-  --some: hsl(273, 68%, 59%);
 
-  /* --raw-seinna: hsl(24, 74%, 58%); */
-  --raw-seinna: hsl(300, 100%, 88%);
+  --raw-seinna: hsl(24, 74%, 58%);
   --sizzling-sunrise: hsl(51, 95%, 54%);
-  --scarlet: hsl(270, 73%, 35%);
-  /* --scarlet: hsl(13, 96%, 47%); */
+  --scarlet: hsl(13, 96%, 47%);
   --black: hsl(0, 0%, 0%);
   --white: hsl(0, 0%, 100%);
 
@@ -240,7 +232,7 @@ body.active {
 }
 
 .btn-secondary:is(:hover, :focus) {
-  --raw-seinna: hsl(24, 74%, 64%);
+  background: var(--red-light);
 }
 
 .section-subtitle {
@@ -465,7 +457,7 @@ body.active {
 .navbar-link::before {
   content: "";
   position: absolute;
-  top: 50%;
+  bottom: 20%;
   transform: translateY(-50%);
   left: 0;
   height: 5px;
