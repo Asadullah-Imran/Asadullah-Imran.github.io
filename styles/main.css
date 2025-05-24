@@ -1,0 +1,24 @@
+:root {
+  --primary-color: #008080;
+  --secondary-color: #004d4d;
+  --bg-color: #ffffff;
+  --text-color: #333333;
+}
+
+[data-theme="dark"] {
+  --primary-color: #4db6ac;
+  --secondary-color: #00897b;
+  --bg-color: #1a1a1a;
+  --text-color: #ffffff;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: all 0.3s ease;
+}
+
+.navbar {
+  background-color: var(--primary-color);
+  color: white;
+}

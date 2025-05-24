@@ -1,0 +1,14 @@
+/portfolio-website
+  |- index.html
+  |- blogs.html
+  |- admin.html
+  |- /data
+     |- blogs.json
+  |- /styles
+     |- main.css
+  |- /scripts
+     |- main.js
+     |- blogs.js
+     |- admin.js
+  |- /assets
+     |- images (for storing blog pictures)

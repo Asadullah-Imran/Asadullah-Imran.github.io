@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Asadullah Imran - Portfolio</title>
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body class="admin-body">
+    <div class="admin-login">
+      <input
+        type="password"
+        id="adminPassword"
+        placeholder="Enter Admin Password"
+      />
+      <button onclick="login()">Login</button>
+    </div>
+
+    <div class="blog-form" style="display: none">
+      <h2>Create New Blog Post</h2>
+      <input type="text" id="blogTitle" placeholder="Title" />
+      <textarea id="blogContent" placeholder="Content"></textarea>
+      <input type="text" id="blogImage" placeholder="Image URL (optional)" />
+      <button onclick="saveBlog()">Publish</button>
+    </div>
+
+    <script src="scripts/admin.js"></script>
+  </body>
+</html>
